@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login-page {
+    background-color: #3a5a40;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-space {
+    background-color: #f1faee;
+    height: 350px;
+    width: 550px;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+.log {
+    font-size: 40px;
+    width: 100%;
+    color: #3a5a40;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.usern,
+.user-p {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 400px;
+    color: #3a5a40;
+    font-size: 20px;
+}
+
+.usern input,
+.user-p input {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    margin-top: 5px;
+    border: none;
+    height: 20px;
+}
+
+
+.login-btn {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin: 0;
+    background-color: #3a5a40;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 0 0 20px 130px;
+}
+
+.login-btn:hover {
+    background-color: #2d4731;
+}
+
+#error {
+    color: red;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .usern,
+    .user-p {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .usern input,
+    .user-p input {
+        font-size: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+    .login-space {
+        padding: 20px; 
+    }
+
+    .usern,
+    .user-p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .usern input,
+    .user-p input {
+        font-size: 15px;
+        height: 18px;
+    }
+
+    .login-btn {
+        width: 100%;
+        margin: 15px 0 10px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .login-space {
+        padding: 20px; 
+    }
+
+    .log {
+        font-size: 28px;
+        padding: 5px;
+    }
+
+    .usern,
+    .user-p {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .usern input,
+    .user-p input {
+        font-size: 16px;
+        height: 18px;
+    }
+
+    .login-btn {
+        width: 100%;
+        margin: 15px 0 10px 0;
+    }
+}

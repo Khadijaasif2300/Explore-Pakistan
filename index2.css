@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.enter {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("pak-img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#go-btn {
+    margin: 300px 0 0 180px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: #3a5a40;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#go-btn:hover {
+    background-color: #2d4731;
+}
+
+
