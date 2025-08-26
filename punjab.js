@@ -5,4 +5,8 @@ $(document).ready(function () {
     $(".badshahi").click(function () {
         window.location.href = "punjab-descriptions/badshahi.html";
     });
+
+     $(".fort").click(function () {
+        window.location.href = "punjab-descriptions/fort-des.html";
+    });
 });
