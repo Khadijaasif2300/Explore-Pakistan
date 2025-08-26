@@ -227,14 +227,14 @@
     height: auto;
   }
 
+  .timeline {
+    padding-left: 40px;
+  }
+
   .timeline li {
     width: 100%;
     text-align: left;
     left: 0 !important;
-  }
-
-  .timeline li:nth-child{
-    align-items: center;
   }
 
   .timeline::before {
@@ -242,11 +242,75 @@
   }
 
   .timeline li::before {
-    left: 0;
+    left: -20px;
     right: auto;
   }
 }
 
+/* Tablets: 768px – 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero img {
+    height: 400px;
+  }
+
+  .intro {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .timeline li {
+    width: 100% !important;
+    text-align: left !important;
+    left: 0 !important;
+  }
+
+  .timeline li:nth-child(odd),
+  .timeline li:nth-child(even) {
+    left: 0 !important;  /* ✅ Fix misaligned 3,5 */
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline li::before {
+    left: -20px;
+    right: auto;
+  }
+}
+
+/* Tablets: 768px – 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero img {
+    height: 400px;
+  }
+
+  .intro {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .timeline li {
+    width: 100% !important;
+    text-align: left !important;
+    left: 0 !important;
+  }
+
+  .timeline li:nth-child(odd),
+  .timeline li:nth-child(even) {
+    left: 0 !important;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline li::before {
+    display: none;   /* ✅ remove dots */
+  }
+}
+
+/* Mobiles: 451px – 767px */
 @media (min-width: 451px) and (max-width: 767px) {
   .hero img {
     height: 300px;
@@ -257,18 +321,21 @@
     height: auto;
   }
 
+  
+
   .architecture {
     padding: 20px;
   }
 
   .timeline li {
-    width: 100%;
-    text-align: left;
+    width: 100% !important;
+    text-align: left !important;
     left: 0 !important;
   }
 
-  .timeline li:nth-child{
-    align-items: center;
+  .timeline li:nth-child(odd),
+  .timeline li:nth-child(even) {
+    left: 0 !important;
   }
 
   .timeline::before {
@@ -276,11 +343,11 @@
   }
 
   .timeline li::before {
-    left: 0;
-    right: auto;
+    display: none;  
   }
 }
 
+/* Small Mobiles: max 450px */
 @media (max-width: 450px) {
   .hero img {
     height: 250px;
@@ -293,7 +360,15 @@
   }
 
   .about h2 {
-    font-size: 1.2em;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    padding: 10px 0px 20px 0px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .architecture {
@@ -302,15 +377,15 @@
   }
 
   .timeline li {
-    width: 100%;
-    text-align: center;
+    width: 100% !important;
+    text-align: center !important;
     left: 0 !important;
     padding: 40px;
-
   }
 
-  .timeline li:nth-child{
-    align-items: center;
+  .timeline li:nth-child(odd),
+  .timeline li:nth-child(even) {
+    left: 0 !important;
   }
 
   .timeline::before {
@@ -318,11 +393,11 @@
   }
 
   .timeline li::before {
-    left: 0;
-    right: auto;
+    display: none;   
   }
 
   .history-images figure {
     width: 100%;
   }
 }
+
