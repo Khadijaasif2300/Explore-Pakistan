@@ -3,6 +3,6 @@ $(document).ready(function () {
     $(".header").load("header.html");
 
     $(".badshahi").click(function () {
-        window.location.href = "punjab-description/badshahi.html";
+        window.location.href = "punjab-descriptions/badshahi.html";
     });
 });
