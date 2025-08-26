@@ -9,4 +9,8 @@ $(document).ready(function () {
      $(".fort").click(function () {
         window.location.href = "punjab-descriptions/fort-des.html";
     });
+
+    $(".tomb").click(function () {
+        window.location.href = "punjab-descriptions/tomb.html";
+    });
 });
