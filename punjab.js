@@ -1,7 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $(".footer").load("footer.html");
-});
-
-$(document).ready(function(){
     $(".header").load("header.html");
+
+    $(".badshahi").click(function () {
+        window.location.href = "punjab-description/badshahi.html";
+    });
 });
