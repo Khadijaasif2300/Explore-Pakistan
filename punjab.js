@@ -54,7 +54,7 @@ $(document).ready(function () {
         window.location.href = "punjab-descriptions/khewra.html";
     });
 
-     $(".msoon-vally").click(function () {
+     $(".soon-vally").click(function () {
         window.location.href = "punjab-descriptions/soon-vally.html";
     });
 
