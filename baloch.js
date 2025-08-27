@@ -3,67 +3,67 @@ $(document).ready(function(){
 
     $(".footer").load("footer.html");
 
-    $("#Quetta City").click(function () {
-        window.location.href = "sindh-description/Quetta City.html";
+    $("#Quetta-City").click(function () {
+        window.location.href = "baloch.description/Quetta City.html";
     });
 
-    $("#Hanna Lake").click(function () {
-        window.location.href = "sindh-description/Hanna Lake.html";
+    $("#Hanna-Lake").click(function () {
+        window.location.href = "baloch.description/Hanna Lake.html";
     });
 
-    $("#Urak Valley").click(function () {
-        window.location.href = "sindh-description/Urak Valley.html";
+    $("#Urak-Valley").click(function () {
+        window.location.href = "baloch.description/Urak Valley.html";
     });
 
     $("#Ziarat").click(function () {
-        window.location.href = "sindh-description/Ziarat.html";
+        window.location.href = "baloch.description/Ziarat.html";
     });
 
-    $("#Quaid Residency").click(function () {
-        window.location.href = "sindh-description/Quaid Residency.html";
+    $("#Quaid-Residency").click(function () {
+        window.location.href = "baloch.description/Quaid Residency.html";
     });
 
-    $("#Ziarat Juniper Forest").click(function () {
-        window.location.href = "sindh-description/Ziarat Juniper Forest.html";
+    $("#Ziarat-Juniper-Forest").click(function () {
+        window.location.href = "baloch.description/Ziarat Juniper Forest.html";
     });
 
-    $("#Kund Malir Beach").click(function () {
-        window.location.href = "sindh-description/Kund Malir Beach.html";
+    $("#Kund-Malir-Beach").click(function () {
+        window.location.href = "baloch.description/Kund Malir Beach.html";
     });
 
-    $("#Hingol National Park").click(function () {
-        window.location.href = "sindh-description/Hingol National Park.html";
+    $("#Hingol-National-Park").click(function () {
+        window.location.href = "baloch.description/Hingol National Park.html";
     });
 
-    $("#Princess of Hope").click(function () {
-        window.location.href = "sindh-description/Princess of Hope.html";
+    $("#Princess-of-Hope").click(function () {
+        window.location.href = "baloch.description/Princess of Hope.html";
     });
 
-    $("#Mud Volcanoes").click(function () {
-        window.location.href = "sindh-description/Mud Volcanoes.html";
+    $("#Mud-Volcanoes").click(function () {
+        window.location.href = "baloch.description/Mud Volcanoes.html";
     });
 
-    $("#Pir Ghaib Waterfalls").click(function () {
-        window.location.href = "sindh-description/Pir Ghaib Waterfalls.html";
+    $("#Pir-Ghaib-Waterfalls").click(function () {
+        window.location.href = "baloch.description/Pir Ghaib Waterfalls.html";
     });
 
-     $("#Bolan Pass").click(function () {
-        window.location.href = "sindh-description/Bolan Pass.html";
+     $("#Bolan-Pass").click(function () {
+        window.location.href = "baloch.description/Bolan Pass.html";
     });
 
-     $("#Moola Chotok").click(function () {
-        window.location.href = "sindh-description/Moola Chotok.html";
+     $("#Moola-Chotok").click(function () {
+        window.location.href = "baloch.description/Moola Chotok.html";
     });
 
-     $("#Astola Island").click(function () {
-        window.location.href = "sindh-description/Astola Island.html";
+     $("#Astola-Island").click(function () {
+        window.location.href = "baloch.description/Astola Island.html";
     });
 
-     $("#Gwadar Port & Hammerhead").click(function () {
-        window.location.href = "sindh-description/Gwadar Port .html";
+     $("#Gwadar-Port-&-Hammerhead").click(function () {
+        window.location.href = "baloch.description/Gwadar Port .html";
     });
 
-    $("#Pasni Beach").click(function () {
-        window.location.href = "sindh-description/Pasni Beach .html";
+    $("#Pasni-Beach").click(function () {
+        window.location.href = "baloch.description/Pasni Beach .html";
     });
 });

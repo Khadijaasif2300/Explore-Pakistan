@@ -3,67 +3,67 @@ $(document).ready(function(){
 
     $(".footer").load("footer.html");
 
-    $("#Peshawar City").click(function () {
-        window.location.href = "sindh-description/Peshawar City.html";
+    $("#Peshawar-City").click(function () {
+        window.location.href = "kpk.description/Peshawar City.html";
     });
 
-    $("#Islamia College").click(function () {
-        window.location.href = "sindh-description/Islamia College.html";
+    $("#Islamia-College").click(function () {
+        window.location.href = "kpk.description/Islamia College.html";
     });
 
-    $("#Bala Hisar Fort").click(function () {
-        window.location.href = "sindh-description/Bala Hisar Fort.html";
+    $("#Bala-Hisar-Fort").click(function () {
+        window.location.href = "kpk.description/Bala Hisar Fort.html";
     });
 
-    $("#Mahabat Khan Mosque").click(function () {
-        window.location.href = "sindh-description/Mahabat Khan Mosque.html";
+    $("#Mahabat-Khan-Mosque").click(function () {
+        window.location.href = "kpk.description/Mahabat Khan Mosque.html";
     });
 
-    $("#Khyber Pass").click(function () {
-        window.location.href = "sindh-description/Khyber Pass.html";
+    $("#Khyber-Pass").click(function () {
+        window.location.href = "kpk.description/Khyber Pass.html";
     });
 
-    $("#Swat Valley").click(function () {
-        window.location.href = "sindh-description/Swat Valley.html";
+    $("#Swat-Valley").click(function () {
+        window.location.href = "kpk.description/Swat Valley.html";
     });
 
-    $("#Malam Jabba").click(function () {
-        window.location.href = "sindh-description/Malam Jabba.html";
+    $("#Malam-Jabba").click(function () {
+        window.location.href = "kpk.description/Malam Jabba.html";
     });
 
-    $("#Kalam Valley").click(function () {
-        window.location.href = "sindh-description/Kalam Valley.html";
+    $("#Kalam-Valley").click(function () {
+        window.location.href = "kpk.description/Kalam Valley.html";
     });
 
     $("#Mingora").click(function () {
-        window.location.href = "sindh-description/Mingora.html";
+        window.location.href = "kpk.description/Mingora.html";
     });
 
-    $("#Kumrat Valley").click(function () {
-        window.location.href = "sindh-description/Kumrat Valley.html";
+    $("#Kumrat-Valley").click(function () {
+        window.location.href = "kpk.description/Kumrat Valley.html";
     });
 
-    $("#Shandur Pass").click(function () {
-        window.location.href = "sindh-description/Shandur Pass.html";
+    $("#Shandur-Pass").click(function () {
+        window.location.href = "kpk.description/Shandur Pass.html";
     });
 
-     $("#Chitral Valley").click(function () {
-        window.location.href = "sindh-description/Chitral Valley.html";
+     $("#Chitral-Valley").click(function () {
+        window.location.href = "kpk.description/Chitral Valley.html";
     });
 
-     $("#Kalash Valley").click(function () {
-        window.location.href = "sindh-description/Kalash Valley.html";
+     $("#Kalash-Valley").click(function () {
+        window.location.href = "kpk.description/Kalash Valley.html";
     });
 
-     $("#Fairy Meadows").click(function () {
-        window.location.href = "sindh-description/Fairy Meadows.html";
+     $("#Fairy-Meadows").click(function () {
+        window.location.href = "kpk.description/Fairy Meadows.html";
     });
 
-     $("#Saiful Muluk Lake").click(function () {
-        window.location.href = "sindh-description/Saiful Muluk Lake.html";
+     $("#Saiful-Muluk Lake").click(function () {
+        window.location.href = "kpk.description/Saiful Muluk Lake.html";
     });
 
-    $("#Babusar Top").click(function () {
-        window.location.href = "sindh-description/Babusar Top.html";
+    $("#Babusar-Top").click(function () {
+        window.location.href = "kpk.description/Babusar Top.html";
     });
 });
