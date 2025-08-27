@@ -62,4 +62,8 @@ $(document).ready(function(){
      $("#Hawksbay Beach").click(function () {
         window.location.href = "sindh-description/Hawksbay Beach.html";
     });
+
+     $("#Mohatta Palace").click(function () {
+        window.location.href = "sindh-description/Mohatta Palace.html";
+    });
 });
