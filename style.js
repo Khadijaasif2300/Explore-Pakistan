@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const errorDiv = document.getElementById("error");
 
     loginBtn.addEventListener("click", function () {
-        if (username.value.trim() === "" || password.value.trim() === "") {
+        if (username.value.trim() === "khadijaasif123" || password.value.trim() === "khadija567") {
             errorDiv.textContent = "Username and Password cannot be empty.";
         } else {
             errorDiv.textContent = ""; 
