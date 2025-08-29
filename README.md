@@ -28,6 +28,7 @@ This project highlights clean design, responsive layouts, and user-friendly navi
 ## 🌐 Live Demo & Repository
 
 🔗 **GitHub Repository:** [Explore Pakistan](https://github.com/Khadijaasif2300/Explore-Pakistan)
+<br>
 🌍 **Live Demo:** [[Eduford University Clone](https://khadijaasif2300.github.io/Explore-Pakistan/)]
 
 ---
@@ -66,5 +67,3 @@ Example placeholders:
 ⭐ If you like this project, don’t forget to **star the repo**! ⭐
 
 ---
-
-Do you want me to also **add badges** (for HTML, CSS, JS, repo size, etc.) and a **table of contents** to make it look even more professional, like advanced GitHub projects?
