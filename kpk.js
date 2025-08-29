@@ -3,9 +3,9 @@ $(document).ready(function(){
 
     $(".footer").load("footer.html");
 
-    $("#Peshawar-City").click(function () {
-        window.location.href = "kpk.description/Peshawar City.html";
-    });
+   $(".peshawar-city").click(function () {
+    window.location.href = "kpk.description/Peshawar City.html";
+   });
 
     $("#Islamia-College").click(function () {
         window.location.href = "kpk.description/Islamia College.html";
@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     $("#Mahabat-Khan-Mosque").click(function () {
-        window.location.href = "kpk.description/Mahabat Khan Mosque.html";
+        window.location.href = "kpk.description/khan-mosque.html";
     });
 
     $("#Khyber-Pass").click(function () {
@@ -27,8 +27,8 @@ $(document).ready(function(){
         window.location.href = "kpk.description/Swat Valley.html";
     });
 
-    $("#Malam-Jabba").click(function () {
-        window.location.href = "kpk.description/Malam Jabba.html";
+    $(".Malam-Jabba").click(function () {
+        window.location.href = "kpk.description/Malam-Jabba.html";
     });
 
     $("#Kalam-Valley").click(function () {
@@ -59,10 +59,9 @@ $(document).ready(function(){
         window.location.href = "kpk.description/Fairy Meadows.html";
     });
 
-     $("#Saiful-Muluk Lake").click(function () {
+    $(".saiful").click(function () {
         window.location.href = "kpk.description/Saiful Muluk Lake.html";
     });
-
     $("#Babusar-Top").click(function () {
         window.location.href = "kpk.description/Babusar Top.html";
     });
