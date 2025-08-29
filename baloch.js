@@ -59,11 +59,11 @@ $(document).ready(function(){
         window.location.href = "baloch.description/Astola Island.html";
     });
 
-     $("#Gwadar-Port-&-Hammerhead").click(function () {
-        window.location.href = "baloch.description/Gwadar Port .html";
+    $(".Gwadar-Port").click(function () {
+        window.location.href = "baloch.description/Gawadar-Port.html";
     });
 
-    $("#Pasni-Beach").click(function () {
-        window.location.href = "baloch.description/Pasni Beach .html";
+    $(".pasni-beach").click(function () {
+        window.location.href = "baloch.description/pasni Beach.html";
     });
 });
