@@ -34,11 +34,6 @@ This project highlights clean design, responsive layouts, and user-friendly navi
 ---
 
 ## 📸 Screenshots
-
-(Add your screenshots here for homepage, destination pages, and mobile view)
-
-Example placeholders:
-
 <img width="1366" height="640" alt="provinces" src="https://github.com/user-attachments/assets/0eabb45b-5379-4c8a-979e-d17afbb6afb6" />
 
 
